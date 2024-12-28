@@ -9,7 +9,7 @@ import cartsRouter from "./routes/carts-router.js";
 app.use(express.json());
 app.use(express.urlencoded({extended: true})); 
 
-//Rutas
+//rutas
 app.use("/api/carrito", cartsRouter); 
 app.use("/api/productos", productsRouter); 
 
