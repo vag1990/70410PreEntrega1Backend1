@@ -1,10 +1,7 @@
 import { Router } from "express";
 const router = Router(); 
 
-//Array para almacenar usuarios
 const products = []; 
-
-//Ruta que me retorna todo el listado de usuarios: 
 
 router.get("/", (req, res) => {
     res.send(products); 
